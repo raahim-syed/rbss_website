@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-import AboutCompany from '../components/about-company/AboutCompany'
+import AboutCompany from '../sections/about-company/AboutCompany'
 import Card from '../components/card/Card'
-import CompanyServices from '../components/company-services/CompanyServices'
-// import AboutConsultant from '../components/about-consultant/AboutConsultan
-import AboutConsultant from "../components/about-consultant/AboutConsultant"
-import Hero from "../components/hero/Hero"
-import ContactForm from '../components/contact-form/ContactForm'
+import CompanyServices from '../sections/company-services/CompanyServices'
+// import AboutConsultant from '../sections/about-consultant/AboutConsultan
+import AboutConsultant from "../sections/about-consultant/AboutConsultant"
+import Hero from "../sections/hero/Hero"
+import ContactForm from '../sections/contact-form/ContactForm'
 
 const HomePage = () => {
   return (

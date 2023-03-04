@@ -1,5 +1,5 @@
 import "./about-company.css"
-import Heading from "../heading/Heading"
+import Heading from "../../components/heading/Heading"
 
 const AboutCompany = () => {
   return (

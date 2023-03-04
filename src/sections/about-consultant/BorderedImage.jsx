@@ -1,5 +1,5 @@
 import "./bordered-image.css"
-import image from "./consultant-image.jpg"
+import image from "../../assets/images/consultant-image.jpg"
 
 const BorderedImage = () => {
     const style= {

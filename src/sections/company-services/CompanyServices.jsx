@@ -1,6 +1,6 @@
 
-import CarouselSlider from '../carousel-slider/CarouselSlider'
-import Heading from '../heading/Heading'
+import CarouselSlider from '../../components/carousel-slider/CarouselSlider'
+import Heading from '../../components/heading/Heading'
 
 const CompanyServices = () => {
   return (

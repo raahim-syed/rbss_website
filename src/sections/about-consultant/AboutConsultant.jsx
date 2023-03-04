@@ -1,6 +1,6 @@
 import "./about-consultant.css"
-import Heading from '../heading/Heading'
-import ButtonPrimary from "../buttons/ButtonPrimary"
+import Heading from '../../components/heading/Heading'
+import ButtonPrimary from "../../components/buttons/ButtonPrimary"
 import BorderedImage from "./BorderedImage"
 
 const AboutConsultant = ({image, ...props}) => {
