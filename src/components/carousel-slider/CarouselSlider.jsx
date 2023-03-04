@@ -40,17 +40,6 @@ const CarouselSlider = () => {
                 <Card heading="Geopolitical Security Management" 
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat!" />
             </div>
-
-            <div className="carousel-slide">
-                <Card heading="Geopolitical Security Management" 
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat!" />
-
-                <Card heading="Geopolitical Security Management" 
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat!" />
-
-                <Card heading="Geopolitical Security Management" 
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat!" />
-            </div>
         </div>
 
         <div className="right-control flex flex-center">
