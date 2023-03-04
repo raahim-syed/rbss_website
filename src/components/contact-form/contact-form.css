@@ -4,7 +4,7 @@
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 20px;
-    box-shadow: 0 0 51px #ccc;
+    box-shadow: 0 0 50px rgba(12, 21, 39, 19%);
 }
 .contact-details span{
     margin-left: 0.5rem;
