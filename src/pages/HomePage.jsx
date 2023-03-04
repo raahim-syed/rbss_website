@@ -7,7 +7,7 @@ import CompanyServices from '../sections/company-services/CompanyServices'
 // import AboutConsultant from '../sections/about-consultant/AboutConsultan
 import AboutConsultant from "../sections/about-consultant/AboutConsultant"
 import Hero from "../sections/hero/Hero"
-import ContactForm from '../sections/contact-form/ContactForm'
+import Contact from "../sections/contact/Contact"
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
       <AboutCompany />
       <CompanyServices />
       <AboutConsultant />
-      <ContactForm />
+      <Contact />
     </>
   )
 }
