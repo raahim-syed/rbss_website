@@ -1,0 +1,12 @@
+.about-company .grid{
+    gap: 1rem;
+    grid-template-columns: 45% 50%;
+}
+
+.about-company .container .left{
+    border-right: 1px solid var(--primary-color);
+}
+.about-company p{
+    opacity: 1;
+    font-size: 0.9rem;
+}

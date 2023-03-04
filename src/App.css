@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@400;900&display=swap');
+:root{
+    --background-color: #FCFCFC;
+    --primary-color: #0C1527;
+    --secondary-color: #ff0000;
+    --light-color: #3D4452;
+    --paragraph-opacity: 0.6;
+    --border-radius: 2rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background-color);
+    font-family: "Montserrat" ,Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+h1{
+    font-size: 2rem;
+}
+h1, h2, h3, h4{
+    font-family: "Gloock";
+    line-height: 1.1;
+    color: var(--primary-color);
+    text-transform: capitalize;
+}
+p{
+    line-height: 1.5;
+    color: var(--primary-color);
+    opacity: var(--paragraph-opacity);
+}
+a{
+    text-decoration: none;
+    color: var(--background-color);
+}
+/* Custom Classes */
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+}
+/* Utitlities */
+.bottoms-rounded{
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+.tops-rounded{
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+}
+.underlined{
+    text-decoration: underline;
+}
+/* Positioning */
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.ptb-2{
+    padding: 4rem 0;
+}
+/* Grid and Flexbox */
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.grid-center{
+    align-items: center;
+    justify-content: center;
+}
+.grid-space-between{
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+.flex-space-between{
+    align-items: center;
+    justify-content: space-between;
+}
+/* Colors */
+.light{
+    color: var(--background-color);
+}
+.bg-dark{
+    background-color: var(--primary-color);
+}
+.dark{
+    color: var(--primary-color);
+}
+/* Button Styles */
+.btn-primary-light{
+    display: inline-block;
+    border-radius: 4rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+    padding: 0.35rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--background-color);
+    background-color: var(--light-color);
+    transition: border-radius 0.2s ease-in-out;
+}
+.btn-primary-light:hover{
+    border-radius: 5px;
+}
+.btn-secondary{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--primary-color);
+}

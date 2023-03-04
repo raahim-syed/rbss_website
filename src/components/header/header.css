@@ -1,0 +1,11 @@
+.site-header{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.site-nav ul li{
+    list-style: none;
+}
+.site-nav ul li a{
+    display: inline-block;
+    margin-right: 1.5rem;
+}

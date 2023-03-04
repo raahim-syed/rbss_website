@@ -1,0 +1,21 @@
+.hero-section section{
+    padding: 4rem;
+}
+.hero-section{
+    align-items: top;
+    justify-content: space-between;
+    gap: 1rem;
+    grid-template-columns: 50% 50%;
+}
+.hero-section .left{
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 2rem;
+}
+.hero-section .right{
+    background-color: #ccc;
+    border-bottom-left-radius: 2rem;
+    background-image: url("https://images.pexels.com/photos/65438/pexels-photo-65438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}

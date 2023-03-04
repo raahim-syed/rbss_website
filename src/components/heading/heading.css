@@ -1,0 +1,10 @@
+.top-heading{
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.main-heading{
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-transform: capitalize;
+}

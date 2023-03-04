@@ -1,0 +1,16 @@
+.card{
+    max-width: 300px;
+    padding: 1rem;
+}
+.card .card-header .heading-line{
+    line-height: 1.5;
+    text-transform: capitalize;
+    width: 0.7rem;
+    height: 6rem;
+    border-radius: 4rem;
+    background-color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+.card-header .card-heading{
+    margin-left: 1rem;
+}

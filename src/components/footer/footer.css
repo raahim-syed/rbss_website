@@ -1,0 +1,8 @@
+.site-footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem 0;
+}
+.site-footer h1{
+    color: #fff;
+}

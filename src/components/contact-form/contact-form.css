@@ -1,0 +1,17 @@
+.contact-form-holder{
+    max-width: 500px;
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 51px #ccc;
+}
+.contact-details span{
+    margin-left: 0.5rem;
+}
+.contact-form-holder form a{
+    float: right;
+}
+.contact-form-holder form a::after{
+    clear: both;
+}

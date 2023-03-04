@@ -1,0 +1,10 @@
+.carousel-slider{
+    grid-template-columns: 3% 90% 3%;
+}
+.carousel-content{
+    overflow-x: scroll;
+}
+.carousel-slide{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}

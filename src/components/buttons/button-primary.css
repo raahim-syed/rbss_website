@@ -1,0 +1,21 @@
+.btn-primary{
+    display: inline-block;
+    border-radius: 4rem;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    padding: 0.35rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: border-radius 0.2s ease-in-out;
+}
+.btn-light{
+    color: var(--background-color);
+    background-color: var(--light-color);
+}
+.btn-dark{
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}
+.btn-light:hover, .btn-dark:hover{
+    border-radius: 5px;
+}
