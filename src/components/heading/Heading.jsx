@@ -1,7 +1,7 @@
 import "./heading.css"
-const Heading = ({subHeading, heading, paragraph, mode, ...props}) => {
+const Heading = ({subHeading, heading, paragraph, mode, extraClasses, ...props}) => {
   return (
-    <div>
+    <div className={`${extraClasses}`}>
       <span className='top-heading'>{subHeading}</span>
       <h1 className='main-heading'
         style={mode === "dark" ? {color: "var(--primary-color)"} : {color: "#fff"}}

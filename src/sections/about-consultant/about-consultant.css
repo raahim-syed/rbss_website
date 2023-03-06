@@ -2,3 +2,8 @@
     grid-template-columns: 50% 50%;
     gap: 1rem;
 }
+.about-consultant img{
+    max-width: 550px;
+    max-height: 500px;
+    margin-left: 1rem;
+}

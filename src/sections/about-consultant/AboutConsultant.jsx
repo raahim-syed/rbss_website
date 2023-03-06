@@ -1,11 +1,12 @@
 import "./about-consultant.css"
+import consultantImage from  "../../assets/images/consultant-image.jpg"
 import Heading from '../../components/heading/Heading'
 import ButtonPrimary from "../../components/buttons/ButtonPrimary"
-import BorderedImage from "./BorderedImage"
+import ButtonSecondary from "../../components/buttons/ButtonSecondary"
 
-const AboutConsultant = ({image, ...props}) => {
+const AboutConsultant = ({extraClasses, ...props}) => {
   return (
-    <section className="about-consultant mt-4">
+    <section className={`about-consultant ${extraClasses}`}>
       <div className="container grid grid-center">
         <section className="left">
           <Heading mode="dark" subHeading="About Consultant" 
@@ -28,12 +29,16 @@ const AboutConsultant = ({image, ...props}) => {
               </li>
             </ul>
 
+            <br />
+            <br />
+
             <ButtonPrimary type="dark" text="Contact Us" href="#contact" />
+            <ButtonSecondary text="Learn More" href="/about-consultant" />
         </section>
 
         <section className="right">
           <div className="consultant-image-holder">
-            <BorderedImage />
+            <img src={consultantImage} alt="mateen-khan" />
           </div>
         </section>
       </div>

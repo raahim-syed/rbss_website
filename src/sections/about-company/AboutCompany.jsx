@@ -1,9 +1,9 @@
 import "./about-company.css"
 import Heading from "../../components/heading/Heading"
 
-const AboutCompany = () => {
+const AboutCompany = ({extraClasses}) => {
   return (
-    <div className='about-company mt-2'>
+    <div className={`about-company ${extraClasses}`}>
         <section className="container grid grid-space-between">
 
             <section className="left">

@@ -1,4 +1,5 @@
-.form-control input{
+.form-control input,
+.form-control textarea{
     width: 100%;
     font-family: "Montserrat";
     font-weight: 900;
@@ -8,7 +9,8 @@
     padding: 0.8rem 1rem;
     transition: border 0.3s ease;
 }
-.form-control input:focus{
+.form-control input:focus,
+.form-control textarea:focus{
     border: 3px solid #070707;
     outline: none;
 }

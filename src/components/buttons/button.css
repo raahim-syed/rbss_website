@@ -1,4 +1,4 @@
-.btn-primary{
+.btn{
     display: inline-block;
     border-radius: 4rem;
     text-transform: capitalize;
@@ -6,6 +6,8 @@
     padding: 0.35rem 1.5rem;
     font-size: 1.2rem;
     font-weight: 900;
+}
+.btn-primary{
     transition: border-radius 0.2s ease-in-out;
 }
 .btn-light{
@@ -18,4 +20,24 @@
 }
 .btn-light:hover, .btn-dark:hover{
     border-radius: 5px;
+}
+/* Button Secondary */
+.btn-secondary{
+    color: var(--primary-color);
+    transition: underline 0.3s ease;
+}
+.btn-secondary-light{
+    color: var(--background-color);
+}
+.btn-secondary i{
+    margin-left: 0.2rem;
+}
+
+.btn-secondary:hover{
+    text-decoration: underline;
+}
+.btn-secondary svg {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 0.3rem;
 }

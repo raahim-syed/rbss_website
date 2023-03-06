@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@400;700;900&display=swap');
 :root{
     --background-color: #FCFCFC;
     --primary-color: #0C1527;
     --secondary-color: #ff0000;
     --light-color: #3D4452;
-    --paragraph-opacity: 0.6;
+    --paragraph-opacity: 0.85;
     --border-radius: 2rem;
 }
 *{
@@ -14,14 +14,14 @@
 }
 body{
     background-color: var(--background-color);
-    font-family: "Montserrat" ,Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
 h1{
     font-size: 2rem;
 }
 h1, h2, h3, h4{
-    font-family: "Gloock";
+    font-family: "Gloock", serif;
     line-height: 1.1;
     color: var(--primary-color);
     text-transform: capitalize;
@@ -38,7 +38,7 @@ a{
 /* Custom Classes */
 .container{
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 1200px;
 }
 /* Utitlities */
 .bottoms-rounded{
@@ -59,8 +59,8 @@ a{
 .mt-2{
     margin-top: 2rem;
 }
-.mt-4{
-    margin-top: 4rem;
+.mt-3{
+    margin-top: 3rem;
 }
 .mt-4{
     margin-top: 4rem;

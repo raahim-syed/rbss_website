@@ -1,0 +1,8 @@
+.companies-section .images img{
+    max-width: 200px;
+    max-height: 120px;
+    margin: 0 6rem;
+}
+.companies-section .images img:nth-child(2){
+    max-width: 270px;
+}

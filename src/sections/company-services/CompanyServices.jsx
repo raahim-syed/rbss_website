@@ -1,3 +1,5 @@
+import {ComponentDidMount, useEffect} from "react"
+
 import CarouselSlider from '../../components/carousel-slider/CarouselSlider'
 import Heading from '../../components/heading/Heading'
 
@@ -9,33 +11,36 @@ import { register } from 'swiper/element/bundle';
 register();
 
 
-const CompanyServices = () => {
-  // swiper element
-  const swiperEl = document.querySelector('swiper-container');
+const CompanyServices = ({extraClasses, ...props}) => {
+  useEffect(() => {
+    // swiper element
+    const swiperEl = document.querySelector('swiper-container');
 
-  // swiper parameters
-  const swiperParams = {
-    slidesPerView: 1,
-    grabCursor: true,
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  };
+    // swiper parameters
+    const swiperParams = {
+      slidesPerView: 1,
+      grabCursor: true,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    };
 
-  // now we need to assign all parameters to Swiper element
-  Object.assign(swiperEl, swiperParams);
+    // now we need to assign all parameters to Swiper element
+    Object.assign(swiperEl, swiperParams);
 
-  // and now initialize it
-  swiperEl.initialize();
+    // and now initialize it
+    swiperEl.initialize();
+  }, [])
+
 
   return (
-    <section className='services bg-dark mt-2 ptb-2 bottoms-rounded'>
+    <section className={`services bg-dark ${extraClasses}`} props>
         <div className="container">
             <Heading subHeading="Services" heading="Masters Of Multiple Domains"
             paragraph="A list of the plethora of services we offer" />

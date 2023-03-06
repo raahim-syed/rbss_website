@@ -2,9 +2,9 @@ import "./contact.css"
 import ContactForm from "../../components/contact-form/ContactForm"
 
 
-const Contact = () => {
+const Contact = ({extraClasses, ...props}) => {
   return (
-    <div className="contact-section">
+    <div className={`contact-section ${extraClasses}`} props>
       <ContactForm />
     </div>
   )

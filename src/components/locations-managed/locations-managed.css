@@ -1,0 +1,11 @@
+.locations-managed-section .locations-top-heading{
+    font-family: "Montserrat", "Arial", sans-serif;
+    margin-bottom: 1.5rem;
+}
+.locations-managed-section .locations .location{
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 2rem;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 900;
+}

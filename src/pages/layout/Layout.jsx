@@ -8,7 +8,7 @@ const Layout = () => {
     <div>
       <Header />
         <Outlet />
-      <Footer />
+      <Footer extraClasses="mt-4" />
     </div>
   )
 }

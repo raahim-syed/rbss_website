@@ -2,10 +2,27 @@
     background-color: var(--primary-color);
     color: #fff;
 }
+.site-nav ul{
+    padding: 1rem 0;
+}
 .site-nav ul li{
     list-style: none;
 }
 .site-nav ul li a{
+    font-weight: 900;
     display: inline-block;
-    margin-right: 1.5rem;
+    margin-right: 3.5rem;
+    transition: color 0.3s ease;
+}
+.site-nav .btn {
+    margin-top: 0;
+}
+.site-nav ul li a.active{
+    color: var(--secondary-color);
+}
+.site-nav ul li a:hover{
+    color: var(--secondary-color);
+}
+.site-header .logo{
+    max-height: 50px;
 }
