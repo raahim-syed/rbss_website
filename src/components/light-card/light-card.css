@@ -1,0 +1,27 @@
+.card-light .card-content-holder{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    box-shadow: 0 0 51px rgba(0, 0, 0, 19%);
+    padding: 2rem;
+    transition: transform 1s ease;
+}
+.card-red-bg{
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 98%;
+    height: 98%;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+/* .card-light .card-content-holder:hover .card-red-bg{
+    transform: translate(-50%, -54%);
+} */
+.card-light h3{
+    font-size: 1.5rem;
+    line-height: 1.3;
+}

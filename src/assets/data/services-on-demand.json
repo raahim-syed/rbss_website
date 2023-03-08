@@ -1,8 +1,26 @@
 [
-    "Provision of Guarding and Escorting Services through third party.",
-    "Installation of access control systems.",
-    "Perimeter security surveillance systems." ,
-    "Emergency response services in remote areas of Pakistan.",
-    "Provision of project security officers for management of security during field operations.",
-    "Liaison with CAF, Police, Military and Intelligence Agencies for support during operations in HRZ. "
+    {
+        "heading": "Provision of Guarding and Escorting Services through third party.",
+        "data": "Put your defenses to the ultimate test."
+    },
+    {
+        "heading": "Installation of access control systems.",
+        "data": ""
+    },
+    {
+        "heading": "Perimeter security surveillance systems..",
+        "data": ""
+    },
+    {
+        "heading": "Emergency response services in remote areas of Pakistan.",
+        "data": ""
+    },
+    {
+        "heading": "Provision of project security officers for management of security during field operations.",
+        "data": ""
+    },
+    {
+        "heading": "Liaison with CAF, Police, Military and Intelligence Agencies for support during operations in HRZ.",
+        "data": ""
+    }
 ]

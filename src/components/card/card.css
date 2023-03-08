@@ -2,15 +2,16 @@
     max-width: 300px;
     padding: 1rem;
 }
-.card .card-header .heading-line{
-    line-height: 1.5;
-    text-transform: capitalize;
-    width: 0.7rem;
-    height: 6rem;
-    border-radius: 4rem;
-    background-color: var(--secondary-color);
+.card-header{
+    align-items: center;
+    justify-content: start;
     margin-bottom: 1rem;
+}
+.card-header img{
+    max-height: 100px;
 }
 .card-header .card-heading{
     margin-left: 1rem;
+    line-height: 1.3;
+    font-size: 1.4rem;
 }

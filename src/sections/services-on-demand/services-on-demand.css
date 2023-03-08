@@ -1,8 +1,15 @@
-.contact-section{
-    margin: 0 auto;
+
+.services-on-demand{
+    position: relative;
+    z-index: 1;
     max-width: 1920px;
     background-image: url("../../assets/images/contact-section-background.svg");
     background-size: 100% 90%;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 0 auto;
+}
+.services-on-demand .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
 }

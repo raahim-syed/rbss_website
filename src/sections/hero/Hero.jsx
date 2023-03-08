@@ -1,12 +1,11 @@
 import "./hero.css"
-import ButtonPrimary from "../../components/buttons/ButtonSecondary"
-import ButtonSecondary from "../../components/buttons/ButtonSecondary"
 import Heading from "../../components/heading/Heading"
-
+import ButtonPrimary from "../../components/buttons/ButtonPrimary"
+import ButtonSecondary from "../../components/buttons/ButtonSecondary"
 
 const Hero = ({extraClasses, ...props}) => {
   return (
-    <div className={`grid hero-section ${extraClasses}`} props>
+    <div className={`grid hero-section ${extraClasses ? extraClasses : ""}`} props>
       
       <section className="left">
         <Heading subHeading="Welcome" 

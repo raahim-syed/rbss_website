@@ -5,11 +5,13 @@ const ButtonPrimary = ({type, href, text, extraClasses, submit, ...props}) => {
   return (
     <>
       { !submit ? 
-          <Link to={href} className={`btn btn-primary ${type === "dark"? "btn-dark":"btn-light"} ${extraClasses}`} props >
+          <Link to={href} className={`btn btn-primary ${type === "dark"? "btn-dark":"btn-light"} 
+            ${extraClasses ? extraClasses: ""}`} props >
             {text}
           </Link>
       :
-        <button type="submit" className={`btn btn-primary ${type === "dark"? "btn-dark":"btn-light"} ${extraClasses}`} props>
+        <button type="submit" className={`btn btn-primary ${type === "dark"? "btn-dark":"btn-light"}
+           ${extraClasses ? extraClasses: ""}`} props>
           {text}
         </button>
 

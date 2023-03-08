@@ -7,7 +7,6 @@ const AboutConsultant = () => {
     <>
       <section className="container mt-4">
         <Heading mode="dark" subHeading="About Consultant" heading="Some Random Text" paragraph="Some  Random Description" />
-        <LocationsManaged extraClasses="mt-4" />
       </section>
     </>
   )

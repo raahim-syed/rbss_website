@@ -5,7 +5,8 @@ import { Link } from "react-router-dom"
 const ButtonSecondary = ({type, href, text, extraClasses, ...props}) => {
   return (
     <>
-        <Link to={href} className={`btn btn-secondary ${type === "light" ? "btn-secondary-light" : ""} ${extraClasses}`} props >
+        <Link to={href} className={`btn ${type === "light" ? "btn-secondary-light" : "btn-secondary"} 
+          ${extraClasses ? extraClasses : ""}`} props >
             {text}
             <FaChevronRight />
         </Link>

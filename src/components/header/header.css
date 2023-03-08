@@ -1,6 +1,7 @@
 .site-header{
     background-color: var(--primary-color);
     color: #fff;
+    margin: 0 auto;
 }
 .site-nav ul{
     padding: 1rem 0;

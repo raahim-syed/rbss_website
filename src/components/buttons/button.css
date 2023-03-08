@@ -28,12 +28,15 @@
 }
 .btn-secondary-light{
     color: var(--background-color);
+    transition: underline 0.3s ease;
 }
-.btn-secondary i{
+.btn-secondary svg, .btn-secondary-light svg{
     margin-left: 0.2rem;
+    vertical-align: middle;
 }
 
-.btn-secondary:hover{
+.btn-secondary-light:hover,
+    .btn-secondary:hover {
     text-decoration: underline;
 }
 .btn-secondary svg {

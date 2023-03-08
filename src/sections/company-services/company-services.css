@@ -1,0 +1,21 @@
+.services-on-demand{
+    margin: 0 auto;
+}
+.services .swiper-slide{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    justify-content: center;
+}
+.services .swiper-slide:first-child{
+    margin-left: 3.5rem;
+}
+.services .swiper-button-next, .swiper-button-prev{
+    color: var(--secondary-color);
+}
+.services .swiper-pagination .swiper-pagination-bullet-active{
+    background-color: var(--secondary-color);
+}
+.services .swiper-pagination{
+    bottom: var(--swiper-pagination-bottom,0);
+}

@@ -5,7 +5,7 @@ import "./header.css"
 
 const Header = ({extraClasses, ...props}) => {
   return (
-    <header className={`site-header ${extraClasses}`} props >
+    <header className={`site-header ${extraClasses ? extraClasses : ""}`} props >
       <div className="container flex flex-space-between">
         <img className="logo" src={logo} alt="Logo" />
 
