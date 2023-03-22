@@ -105,24 +105,12 @@ a{
 .dark{
     color: var(--primary-color);
 }
-/* Button Styles */
-.btn-primary-light{
-    display: inline-block;
-    border-radius: 4rem;
-    text-transform: capitalize;
-    margin: 1rem 0;
-    padding: 0.35rem 1.5rem;
-    font-size: 1.2rem;
-    font-weight: 900;
-    color: var(--background-color);
-    background-color: var(--light-color);
-    transition: border-radius 0.2s ease-in-out;
-}
-.btn-primary-light:hover{
-    border-radius: 5px;
-}
-.btn-secondary{
-    font-size: 1.2rem;
-    font-weight: 900;
-    color: var(--primary-color);
+/* Media Queries */
+@media screen and (min-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .container-sm{
+        width: 95%;
+    }
 }
