@@ -1,5 +1,5 @@
 import "./heading.css"
-const Heading = ({subHeading, heading, paragraph, mode, extraClasses, ...props}) => {
+const Heading = ({subHeading, heading, paragraph, mode = 'light', bottom = true, extraClasses, ...props}) => {
   return (
     <div className={`${extraClasses ? extraClasses : ""}`}>
       <span className='top-heading'>{subHeading}</span>
@@ -9,10 +9,15 @@ const Heading = ({subHeading, heading, paragraph, mode, extraClasses, ...props})
         {heading}
       </h1>
 
-      <p className='heading-paragraph' 
-        style={mode === "dark" ? {color: "var(--primary-color)"} : {color: "#fff"}}>
-          {paragraph}
-      </p>
+      {bottom ? 
+          <p className='heading-paragraph' 
+            style={mode === "dark" ? {color: "var(--primary-color)"} : {color: "#fff"}}>
+              {paragraph}
+          </p>
+        : 
+        <p></p>
+      }
+
     </div>
   )
 }
