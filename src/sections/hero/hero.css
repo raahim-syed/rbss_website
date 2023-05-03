@@ -4,6 +4,7 @@
 }
 .hero-section section{
     padding: 4rem;
+    padding-top: 2rem;
 }
 .hero-section{
     align-items: top;
@@ -22,4 +23,7 @@
     background-size: cover;
     background-position: center;
     min-height: 400px;
+}
+.hero-buttons{
+    margin-top: 2rem;
 }
