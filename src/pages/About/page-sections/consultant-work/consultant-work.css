@@ -1,0 +1,8 @@
+.consultant-work-section .consultant-work{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+.consultant-work .divider{
+    border: 1px solid var(--light-color);
+    height: 100%;
+}
