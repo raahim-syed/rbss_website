@@ -1,5 +1,6 @@
 import "./about-company.css"
-import Heading from "../../components/heading/Heading"
+import Heading from "../../components/heading/Heading" 
+import ButtonPrimary from "../../components/buttons/ButtonPrimary"
 
 const AboutCompany = ({extraClasses}) => {
   return (
@@ -11,6 +12,7 @@ const AboutCompany = ({extraClasses}) => {
                     paragraph="A little about the great things we do to ensure your safety" 
                     mode="dark"
                     />
+                <ButtonPrimary type="dark" text="Contact Us" />
             </section>
 
             <section className="right">
