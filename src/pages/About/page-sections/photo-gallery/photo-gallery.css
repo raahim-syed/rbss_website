@@ -1,0 +1,11 @@
+.photo-gallery-section .container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.photo-gallery-section .left img{
+    max-height: 500px;
+    width: 100%;
+}
+.photo-gallery-section .right img{
+    max-height: 300px;
+}
