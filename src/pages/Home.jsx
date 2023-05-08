@@ -6,6 +6,7 @@ import Contact from "../sections/contact/Contact"
 import Companies from '../sections/companies/Companies'
 import ServicesOnDemand from '../sections/services-on-demand/ServicesOnDemand'
 import LocationsManaged from '../components/locations-managed/LocationsManaged'
+import locations from "../assets/data/locations.json"
 
 const Home = () => {
   return (
@@ -15,9 +16,9 @@ const Home = () => {
       <AboutCompany extraClasses="mt-4" />
       <CompanyServices extraClasses="mt-4 ptb-2 bottoms-rounded" />
       <ServicesOnDemand extraClasses="mt-4" />
-      <LocationsManaged extraClasses={"mt-4"} />
-      <AboutConsultant extraClasses="mt-4" />
-      <Contact extraClasses="mt-4" id="contact" />
+      <LocationsManaged extraClasses={"mt-3"} locations={[...locations]} />
+      <AboutConsultant extraClasses="mt-3" />
+      <Contact extraClasses="mt-4" />
     </>
   )
 }

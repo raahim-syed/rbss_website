@@ -9,3 +9,7 @@
     text-transform: uppercase;
     font-weight: 900;
 }
+.locations-managed-section .grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem 8rem;
+}

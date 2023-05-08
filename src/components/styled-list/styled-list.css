@@ -1,0 +1,9 @@
+.styled-list{
+    margin-bottom: 1.5rem;
+    /* border-left: var(--secondary-color) 5px solid; */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.styled-list .description{
+    padding: 1.5rem;
+}

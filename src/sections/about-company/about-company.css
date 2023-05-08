@@ -2,11 +2,14 @@
     gap: 1rem;
     grid-template-columns: 45% 50%;
 }
-
 .about-company .container .left{
     border-right: 1px solid var(--primary-color);
 }
 .about-company p{
     opacity: 1;
-    font-size: 0.9rem;
+}
+@media screen and (max-width: 768px) {
+    .about-company .container{
+        grid-template-columns: 100%;;
+    }
 }

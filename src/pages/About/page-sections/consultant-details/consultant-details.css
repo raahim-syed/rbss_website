@@ -1,0 +1,17 @@
+.consultant-description-left{
+    padding: 3rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(12, 21, 39, 19%);
+}
+.consultant-description-right{
+    margin-left: -1rem;
+    padding: 3rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: -1;
+}
+.consultant-details-section .grid{
+    grid-template-columns: 50% 40%;
+}
